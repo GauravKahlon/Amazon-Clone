@@ -1,5 +1,4 @@
 import React from "react";
-import "./Navbar.css";
 import AmazonLogo from "../../Assets/Svg/amazon_logo.png";
 import LocationIcon from "./Svg/white_location_icon.png";
 import SearchIcon from "./Svg/black_search_icon.png";

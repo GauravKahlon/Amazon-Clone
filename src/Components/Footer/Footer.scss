@@ -1,0 +1,86 @@
+.foot-parent-container {
+    margin-top: 100vh;
+
+    .foot-background {
+        background: #131921;
+    }
+
+    .foot-back-to-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #37475a;
+        height: 50px;
+
+        .foot-back-to-foot-text {
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+
+    .foot-content-upper {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+
+        .foot-box-content {
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+
+            .foot-box-heading {
+                font-weight: 700;
+                color: #fff;
+                font-size: 16px;
+                margin: 6px 0 14px 0;
+            }
+
+            .foot-box-list-items {
+                color: #ddd;
+                margin: 0 0 10px 0;
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .foot-content-lower {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #3a4553;
+
+        .foot-content-lower-container {
+            padding: 6px 18px 6px 8px;
+            margin-right: 4px;
+            border: 1.5px solid #848688;
+            border-radius: 3px;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .foot-amazon-logo {
+                width: 113px;
+                height: 60px;
+                margin-right: 70px;
+                cursor: pointer;
+            }
+
+            .foot-globe-icon {
+                width: 15px;
+                height: 15px;
+            }
+
+            .foot-content-lower-text {
+                color: #ccc;
+                margin: 0 8px;
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
+    }
+}

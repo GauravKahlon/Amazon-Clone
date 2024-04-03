@@ -1,5 +1,4 @@
 import React from "react";
-import "./Footer.css";
 import AmazonLogo from "../../Assets/Svg/amazon_logo.png";
 import GlobeIcon from "./Svg/globe.png";
 import FlagIcon from "../../Assets/Svg/flag.png";
